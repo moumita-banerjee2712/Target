@@ -12,10 +12,11 @@ public class Product {
 
     @Id
     public String id;
+    public String name;
     @Field
     public float price;
 
-    public String name;
+
 
     public String getName() {
         return name;
